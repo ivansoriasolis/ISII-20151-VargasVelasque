@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>....:: drawing-snd ::....</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="estilos/estilos.css">
+	<link rel="icon" href="imagenes/logos/logo.png">
+	<script src="js/ajax.js"></script>
+	<script src="js/funciones.js"></script>
+	<script src="js/indexH.js"></script>
+</head>
+<body>
+	<section id="CampoDibujo">
+		<header id="barraPrincipal">
+			<ul>
+				<li id="logeo" onclick="ingresarSaUser('logeo')" title="logearse"></li>
+				<li id="cerrarSecion" title="cerrar cesion"></li>
+				<li id="nuevoU" onclick="ingresarSaUser('registro')" title="registrar usuario"></li>
+				<li id="img" onclick="ingresarSaUser('edit')"></li>
+				<li id="user">snd-yvv</li>
+				<div class="clear"></div>
+			</ul>
+			<div class="clear"></div>
+		</header>
+		<div id="campoDraw">
+			<header id="barraHerramientas">
+				<ul>
+					<li id="ver" onclick="verTrab()"></li>
+					<li id="Guardar" onclick="guardarTrab()"></li>
+					<li id="Nuevo" onclick="newCanvasL()"></li>
+					<li id="Reacer"></li>
+					<li id="Adelante"></li>
+					<li id="verHecho" onclick="javascript:document.getElementById('holaHome').click()"><a id="holaHome" href="ventanas/home.php"></a></li>
+					<div class="clear"></div>
+				</ul>
+				<div class="clear"></div>
+			</header>
+			<aside id="materiales">
+				<div>materiales</div>
+				<ul>
+					<li id="Cursor" onclick="cursorC()"></li>
+					<li id="Lapiz" onclick="lapizC()"></li>
+					<li id="Texto"></li>
+					<li id="Circulo"></li>
+					<li id="Cuadrado"></li>
+					<li id="eracer" onclick="borradorC()"></li>
+					<li id="Bezier"></li>
+					<li id="Imagen"></li>
+				</ul>
+				<div id="herramientasDis">
+					<div id="color">
+						<input type="color" id="col" name="col">
+					</div>
+					<div id="tamanio">
+						<input type="range" value="5" min="0.5" max="40" step=".5" id="tamVal">
+					</div>
+				</div>
+			</aside>
+			<div id="canvasImprim"></div>
+			<div class="clear"></div>
+			<div id="pinturaUti">
+				<ul id="colores"></ul>
+			</div>
+		</div>
+	</section>
+	<div id="flotante" class="hidden"></div>
+</body>
+</html>

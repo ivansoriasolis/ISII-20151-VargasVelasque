@@ -1,0 +1,101 @@
+@charset "utf-8";
+#sectionFiles{
+  width: 90%;
+  max-width: 1400px;
+  min-width: 1024px;
+  background: #eee;
+  margin: auto;
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+header>ul{
+  padding-bottom: 10px;
+}
+#sectionFiles li{
+  list-style: none;
+}
+#sectionFiles>#ruta{
+  padding: 3px 15px;
+  position: relative;
+  z-index: 2;
+  border: 4px solid transparent;
+  border-bottom: 1px solid rgba(0,0,0,.3);
+  box-sizing: border-box;
+}
+#sectionFiles>#ruta>#rutaGu>li{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url('../imagenes/logos/folder.png') 100% 100% / 100% 100% no-repeat;
+  cursor: pointer;
+}
+#sectionFiles>#ruta>#rutaGu>li#masFolder{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url('../imagenes/logos/folder_add.png') 100% 100% / 100% 100% no-repeat;
+  cursor: pointer;
+  float: right;
+}
+#contenido{
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#imagenesGaleria>.imagenesH{
+  display: inline-block;
+  width: 200px;
+  height: 120px;
+  position: relative;
+  padding: 10px;
+  margin: 5px 10px;
+}
+#imagenesGaleria>.fonlderImG{
+  background: transparent url("../imagenes/logos/folderAcc.png") no-repeat 100% 100% / 100% 105%;
+  cursor: pointer;
+}
+#imagenesGaleria>.fonlderImG>.nombreImagenG,
+#imagenesGaleria>.fonlderImG>.fechaImagenG{
+  transform: rotateZ(15deg) skewX(28deg);
+}
+#imagenesGaleria>.imagenesH>p.nombreImagenG{
+  position: absolute;
+  color: rgb(140, 140, 140);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  pointer-events: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: arial;
+  text-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+#imagenesGaleria>.imagenesH>p.fechaImagenG{
+  position: absolute;
+  color: rgb(86, 86, 86);
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  overflow: hidden;
+  pointer-events: none;
+  font-size: .7em;
+  font-weight: bold;
+  font-family: calibri,arial;
+  text-shadow: 0 0 3px rgba(0,0,0,1);
+  text-align: right;
+}
+#imagenesGaleria>.imagenesH>img{
+  left: 0;
+  top: 20px;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 2px;
+  box-shadow: 0 0 3px rgba(0,0,0,1);
+}

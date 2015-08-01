@@ -13,3 +13,16 @@ SIGUE ADELANTE
 Observaciones tercera entrega
 ----------------------------------------------------------------
 - Esta bien la frecuencia de commits, pero los commits es mejor que tengan nombres significativos que describan lo que se  está implementando entre commits
+---------------------------
+Respuesta tercera entrega
+:::::::::::::::::::::::::::
+los commits que se estan realizando estan descritas cada uno.
+DW - ejecucion(1.4) -> representa la compilacion del proyecto ya en funcion,
+                       pero, se agregan lineas de codigo en cada commit para de esta forma
+                       ver los resultados.
+DW - prototipado final(6) -> representa el modelado del proyecto.
+DW - documentacion-fial(1) -> representa las verciones de diferentes documentos que se estan agregando
+------ Entonces es de esta forma que se estan   -------
+------ controlando las verciones del desarrollo -------
+------ de este proyecto                         -------
+---------------------------

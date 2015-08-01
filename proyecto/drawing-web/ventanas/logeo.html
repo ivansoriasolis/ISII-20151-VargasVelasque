@@ -1,0 +1,21 @@
+<form action="javascript:logeo()" method="" id="formularioLog" class="formularios">
+	<div onclick="cerrarForm()" id="closeForm"></div>
+	<ul>
+		<li>
+			<label for="usuario">Usuario</label><br>
+			<input type="text" id="usuario" name="usuario" placeholder="ingrese usuario" required>
+		</li>
+		<li>
+			<label for="contrasena">Contraseña</label><br>
+			<input type="password" id="contrasena" name="contrasena" placeholder="ingrese contrasena" required>
+		</li>
+		<li>
+			<button id="ok">ingresar</button>
+		</li>
+		<li>
+			<a href="javascript:ingresarSaUser('recover')">perdi mi contraseña</a>
+		</li>
+	</ul>
+	<div id="loadF" class="hiddenLo"></div>
+	<div id="campoRPTA" class="show"></div>
+</form>
